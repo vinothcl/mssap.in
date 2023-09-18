@@ -1,0 +1,192 @@
+/*
+Theme Name: VW Nutritionist Coach
+Theme URI: https://www.vwthemes.com/themes/free-nutritionist-wordpress-theme/
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: The VW Nutritionist Coach WordPress Theme is a simple, clean and elegant WordPress theme that's perfect for nutritionists and dietitians that want to share their knowledge with the world. The theme also works great for any other type of health-related business such as gyms, wellness programs, or personal trainers. While there are many different types of coaches, VW Nutritionist Coach WordPress themes are becoming increasingly popular. As the name suggests, a VW Nutritionist Coach is a professional who specializes in nutrition and weight loss. They work with their clients to create individualized plans that help them reach their goals. There are many benefits to hiring a VW Nutritionist Coach. They can help you lose weight, improve your eating habits, and make other lifestyle changes that can improve your health. If you’re looking for someone to help you make lasting changes. In addition to helping you lose weight, working with a nutritionist can also improve your overall health. Nutritionists can help you make sure you’re getting the nutrients your body needs, which can help reduce your risk of developing chronic diseases. Working one-on-one with a nutritionist coach when you work with a VW Nutritionist Coach, you’ll have the opportunity to work one-on-one with a professional who is dedicated to helping you reach your goals. Your VW Nutritionist Coach will create an individualized plan that takes into account your unique goals, preferences, and lifestyle. This type of personalized attention is one of the major advantages of working with a VW Nutritionist Coach. Demo: https://www.vwthemes.net/nutritionist-coach/
+Template: vw-health-coaching
+Tested up to: 6.0
+Requires PHP: 7.2
+Version: 0.1
+License: GPLv3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: vw-nutritionist-coach
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, flexible-header, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, threaded-comments, post-formats, education, food-and-drink, e-commerce
+*/
+
+body{
+	overflow: hidden;
+	color: black;
+}
+#topbar .custom-social-icons a:focus, .logo h1 a:focus, .logo p.site-title a:focus, #services-we-provide .service-box h4 a:focus, #services-we-provide .owl-nav button:focus, #slider a.carousel-control-prev:focus, #slider a.carousel-control-next:focus{
+  outline: 1px solid #000;
+  text-decoration:none !important;
+}
+#preloader, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, .view-more, .scrollup i, #footer-2, #footer .tagcloud a:hover, input[type="submit"], input.button, #sidebar .tagcloud a:hover, .pagination span, .pagination a, #comments a.comment-reply-link, #comments input[type="submit"], .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, nav.woocommerce-MyAccount-navigation ul li, #services-we-provide .owl-nav button i:hover, .nav-previous a, .nav-next a, #footer a.custom_read_more, #sidebar a.custom_read_more, #footer .custom-social-icons i:hover, #sidebar .custom-social-icons i:hover, .woocommerce nav.woocommerce-pagination ul li a,.category_main:nth-child(odd){
+	background-color: #e9204f;
+}
+a, #topbar i, #topbar span a:hover, #topbar .custom-social-icons i:hover, .logo .site-title a:hover, .main-navigation ul.sub-menu a:hover, #slider a.view-more, #slider .view-more:hover i, #slider .carousel-control-prev-icon, #slider .carousel-control-next-icon, .post-main-box:hover h2 a, .post-main-box:hover .post-info a, .single-post .post-info:hover a, #footer li a:hover, #sidebar li a:hover, .woocommerce-product-details__short-description p a, .entry-content a, .sidebar .textwidget p a, .textwidget p a, #comments p a, .slider .inner_carousel p a, .single-post .nav-previous a:hover, .single-post .nav-next a:hover, #services-we-provide h3, #services-we-provide .service-box h3 a, #services-we-provide .owl-nav button i, #services-we-provide .serv-btn a.read-more, #services-we-provide .service-box h4 a, #footer .custom-social-icons i, #sidebar .custom-social-icons i,.category_main .view-more,.category_main .view-more:hover i{
+	color: #e9204f;
+}
+#footer .custom-social-icons i, #sidebar .custom-social-icons i, #footer .custom-social-icons i:hover, #sidebar .custom-social-icons i:hover{
+	border-color: #e9204f;
+}
+.main-navigation ul ul{
+	border-top-color: #e9204f;
+	border-bottom-color: #e9204f;
+}
+.post-info hr{
+	border-top-color: #e9204f;
+}
+#comments input[type="submit"].submit:hover, #sidebar input[type="submit"]:hover, .error-btn a:hover, .content-bttn a:hover, #footer input[type="submit"]:hover, .pagination .current, .pagination a:hover, #footer, .woocommerce span.onsale, .nav-previous a:hover, .nav-next a:hover, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover,.category_main:nth-child(even){
+	background: #121212;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+	background: #121212 !important;
+}
+/*--------- Main Header ---------*/
+.page-template-custom-home-page .main-header, .page-template-ibtana-page-template .main-header{
+	position: static;
+}
+body.admin-bar .header-fixed {
+  margin-top: 20px !important;
+}
+/*----------- Topbar --------*/
+#topbar{
+	background-color: #f8f9fa;
+}
+#topbar span, #topbar span a, #topbar .custom-social-icons i, .logo h1 a, .logo p.site-title a, p.site-description, .main-navigation a:hover, .post-main-box h2 a, #sidebar h3, .post-navigation .meta-nav, h1, h2, h3, h4, h5, h6, h2.woocommerce-loop-product__title, .woocommerce div.product .product_title, #services-we-provide p.services-inner, #services-we-provide .service-box h4 a:hover, #services-we-provide .serv-btn a.read-more:hover {
+	color: #121212;
+}
+/*--------- Header ---------*/
+.main-header-inner, .header-fixed{
+  background: linear-gradient(70deg,#ffffff 28%, #e9204f 20%) repeat scroll 0 0;
+}
+.logo-inner{
+	display: inline-block;
+  background: transparent;
+  padding: 5px 0 5px 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.logo h1 a, .logo p.site-title a{
+	font-size: 25px;
+}
+/*--------- Menus ---------*/
+.main-navigation a{
+	font-size: 14px;
+	letter-spacing: 0px;
+}
+/*--------- Slider ---------*/
+#slider .inner_carousel{
+	background: transparent;
+}
+#slider .inner_carousel h1 a, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, #services-we-provide .owl-nav button i:hover{
+	color: #ffffff;
+}
+#slider a.view-more, #slider .carousel-control-prev-icon, #slider .carousel-control-next-icon{
+	background-color: #ffffff;
+}
+#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon{
+	padding: 10px 15px 10px 15px;
+	border-radius: 0px;
+}
+/*--------- Services We Provide ---------*/
+#services-we-provide h3{
+	font-weight: 600;
+  text-transform: uppercase;
+}
+#services-we-provide p.services-inner, #services-we-provide .service-content p {
+  letter-spacing: 0px;
+}
+#services-we-provide .owl-carousel {
+  padding: 0 60px;
+}
+#services-we-provide .service-box img {
+  width: 100%;
+}
+#services-we-provide .service-box h4 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+#services-we-provide .serv-btn a.read-more{
+	font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0px;
+}
+#services-we-provide .serv-btn a.read-more i{
+	margin-left: 3px;
+}
+#services-we-provide .owl-nav button {
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#services-we-provide .owl-nav button i {
+  padding: 12px 14px;
+  border: 1px solid #e9204f;
+}
+#services-we-provide .owl-nav button.owl-next {
+  left: auto;
+  right: 0;
+}
+/*--------- Blog Page ---------*/
+#sidebar ul li a, .new-text p, .post-info, .entry-date a, .entry-author a, .single-post p, .content-vw p, .woocommerce p, #sidebar select, .woocommerce .woocommerce-ordering select{
+	color: #7a7a7d;
+}
+#sidebar h3, #footer h3, #footer a.custom_read_more, #sidebar a.custom_read_more{
+	text-transform: uppercase;
+}
+#footer .custom-about-us{
+	text-align: left;
+}
+/*--------- Responsive Media ---------*/
+@media screen and (max-width: 575px){
+	.admin-bar .home-page-header {
+    margin-top: 46px !important;
+	}
+	body.admin-bar .header-fixed {
+  	margin-top: 0px !important;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	body.admin-bar .header-fixed {
+  	margin-top: 42px !important;
+	}
+}
+@media screen and (max-width: 1000px){
+	.main-header-inner, .header-fixed{
+		background: #e9204f;
+		padding: 5px 0 15px 0;
+	}
+	.logo p.site-title a, p.site-description, .logo h1 a, .logo h1{
+		color: #ffffff;
+	}
+	.toggle-nav i, .search-box i{
+		background: #121212;
+	}
+	.logo p.site-title a:hover, .logo h1 a:hover{
+		color: #121212 !important;
+	}
+}
+strong {
+	color: black;
+}
+
+body{
+	color: black!important;
+}
+
+@media screen and (max-width: 1000px) {
+	.main-navigation li {
+		padding: 0;
+		display: inline-block!important;
+		text-align: center;
+	}
+	.main-navigation ul li:last-child {
+		border-bottom: none!important;
+	}
+}
+

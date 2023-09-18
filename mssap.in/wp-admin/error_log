@@ -1,0 +1,9 @@
+[09-Sep-2022 14:53:23 UTC] PHP Fatal error:  Uncaught Exception: Slider is not published! in /home4/vivaabku/mssap.in/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Slider/Slider.php:166
+Stack trace:
+#0 /home4/vivaabku/mssap.in/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Admin/Slides/ControllerAjaxSlides.php(321): Nextend\SmartSlider3\Slider\Slider->initSlider()
+#1 [internal function]: Nextend\SmartSlider3\Application\Admin\Slides\ControllerAjaxSlides->actionCreate()
+#2 /home4/vivaabku/mssap.in/wp-content/plugins/smart-slider-3/Nextend/Framework/Controller/AbstractController.php(93): call_user_func_array(Array, Array)
+#3 /home4/vivaabku/mssap.in/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction('create', Array)
+#4 /home4/vivaabku/mssap.in/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(76): Nextend\Framework\Application\AbstractApplicationType->process('slides', 'create', true in /home4/vivaabku/mssap.in/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Slider/Slider.php on line 166
+[19-Oct-2022 09:29:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fdo_settings_page' not found or invalid function name in /home4/vivaabku/mssap.in/wp-includes/class-wp-hook.php on line 307
+[19-Oct-2022 09:31:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fdo_settings_page' not found or invalid function name in /home4/vivaabku/mssap.in/wp-includes/class-wp-hook.php on line 307
